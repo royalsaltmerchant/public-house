@@ -42,9 +42,17 @@ i {
   color: var(--light-orange);
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 main {
   max-width: 800px;
-  /* padding: 20px; */
+  padding: 20px;
   /* margin-bottom: 50px; */
 }
 
@@ -53,7 +61,7 @@ main p {
 }
 
 footer {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .house-container {
